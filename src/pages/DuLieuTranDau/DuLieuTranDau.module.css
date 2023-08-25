@@ -1,0 +1,111 @@
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.league {
+    width: 100%;
+}
+
+.league header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    height: 70px;
+    padding: 0 20px;
+    border-top: 5px solid var(--primary-color);
+    border-radius: 6px;
+}
+
+.league-name {
+    display: flex;
+    align-items: center;
+}
+
+.league-name img {
+    width: 9.5%;
+}
+
+.league-name h1 {
+    font-size: 1.6rem;
+    margin-left: 12px;
+}
+
+.league-name h4 {
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+.league-tabs {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.league-tabs button {
+    width: 32%;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.league-tabs button .--active {
+    background-color: var(--primary-color);
+}
+
+.table {
+    margin-top: 20px;
+    border-radius: 6px;
+    height: 63.1vh;
+}
+
+.table header {
+    background-color: var(--primary-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-top: none;
+    border-radius: 6px 6px 0 0;
+    box-shadow: none;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 20px;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 12px;
+}
+
+select {
+    min-width: 10%;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fff;
+    color: var(--primary-color);
+}

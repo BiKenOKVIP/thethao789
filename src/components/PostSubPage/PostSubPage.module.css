@@ -1,0 +1,53 @@
+.post {
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+}
+
+.post-img {
+    width: 60%;
+    overflow: hidden;
+}
+
+.post-content {
+    padding: 10px;
+}
+
+.post img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.post h2 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.post span {
+    font-size: 1.4rem;
+}
+
+.post:hover {
+    color: var(--primary-color);
+}
+
+.post img:hover {
+    transform: scale(105%);
+}
+
+.post-content {
+    max-width: 65%;
+}
+
+.timestamp {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.description {
+    font-weight: 300;
+}

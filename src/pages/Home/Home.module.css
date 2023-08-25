@@ -1,0 +1,102 @@
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.calendar-table {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.lastest-post {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lastest-news {
+    width: 60%;
+    display: block;
+}
+
+.sub-lastest-news {
+    width: 40%;
+    overflow: hidden;
+    height: 452px;
+    overflow-y: scroll;
+}
+
+.sub-lastest-news::-webkit-scrollbar {
+    width: 3px;
+}
+
+.sub-lastest-news::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.post {
+    margin-top: 10px;
+}
+
+.post-content {
+    padding: 10px;
+    width: 100%;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.post img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.post h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.post span {
+    font-size: 1.4rem;
+}
+
+.post:hover {
+    color: var(--primary-color);
+}
+
+.post img:hover {
+    transform: scale(105%);
+}
+
+.slider {
+    background-color: #0d2655;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.slider-content {
+    width: 62%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.table-league {
+    width: 62%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px 12px;
+}
+
+.title-table {
+    width: 62%;
+    margin: 10px auto 0;
+}
