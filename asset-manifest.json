@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thethao789bet/static/css/main.ee29b99d.css",
+    "main.js": "/thethao789bet/static/js/main.33989a91.js",
+    "static/js/787.7479faf0.chunk.js": "/thethao789bet/static/js/787.7479faf0.chunk.js",
+    "index.html": "/thethao789bet/index.html",
+    "main.ee29b99d.css.map": "/thethao789bet/static/css/main.ee29b99d.css.map",
+    "main.33989a91.js.map": "/thethao789bet/static/js/main.33989a91.js.map",
+    "787.7479faf0.chunk.js.map": "/thethao789bet/static/js/787.7479faf0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee29b99d.css",
+    "static/js/main.33989a91.js"
+  ]
+}
