@@ -9,18 +9,18 @@ import DetailNews from '~/pages/DetailNews';
 import DuLieuTranDau from '~/pages/DuLieuTranDau';
 
 const publicRoutes = [
-	{ path: '/', component: Home },
-	{ path: '/bong-da', component: BongDa },
-	{ path: '/nhan-dinh-bong-da', component: NhanDinhBongDa },
-	{ path: '/tin-bong-da', component: TinBongDa },
-	{ path: '/bong-da-viet-nam', component: BongDaVietNam },
-	{ path: '/esports', component: Esports },
-	{ path: '/detail/:postId', component: DetailNews },
-	{ path: '/du-lieu-bong-da/:id', component: DuLieuTranDau },
-	{ path: '/du-lieu-bong-da', component: DuLieuTranDau },
-	{ path: '*', component: NotFound }
+    { path: '/thethao789bet', component: Home },
+    { path: '/bong-da', component: BongDa },
+    { path: '/nhan-dinh-bong-da', component: NhanDinhBongDa },
+    { path: '/tin-bong-da', component: TinBongDa },
+    { path: '/bong-da-viet-nam', component: BongDaVietNam },
+    { path: '/esports', component: Esports },
+    { path: '/detail/:postId', component: DetailNews },
+    { path: '/du-lieu-bong-da/:id', component: DuLieuTranDau },
+    { path: '/du-lieu-bong-da', component: DuLieuTranDau },
+    { path: '*', component: NotFound },
 ];
 
 const privateRoutes = [];
 
-export { publicRoutes, privateRoutes }
+export { publicRoutes, privateRoutes };
