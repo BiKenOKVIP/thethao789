@@ -9,15 +9,15 @@ import DetailNews from '~/pages/DetailNews';
 import DuLieuTranDau from '~/pages/DuLieuTranDau';
 
 const publicRoutes = [
-    { path: '/thethao789bet', component: Home },
-    { path: '/bong-da', component: BongDa },
-    { path: '/nhan-dinh-bong-da', component: NhanDinhBongDa },
-    { path: '/tin-bong-da', component: TinBongDa },
-    { path: '/bong-da-viet-nam', component: BongDaVietNam },
-    { path: '/esports', component: Esports },
-    { path: '/detail/:postId', component: DetailNews },
-    { path: '/du-lieu-bong-da/:id', component: DuLieuTranDau },
-    { path: '/du-lieu-bong-da', component: DuLieuTranDau },
+    { path: '/thethao789bet/', component: Home },
+    { path: '/thethao789bet/bong-da', component: BongDa },
+    { path: '/thethao789bet/nhan-dinh-bong-da', component: NhanDinhBongDa },
+    { path: '/thethao789bet/tin-bong-da', component: TinBongDa },
+    { path: '/thethao789bet/bong-da-viet-nam', component: BongDaVietNam },
+    { path: '/thethao789bet/esports', component: Esports },
+    { path: '/thethao789bet/detail/:postId', component: DetailNews },
+    { path: '/thethao789bet/du-lieu-bong-da/:id', component: DuLieuTranDau },
+    { path: '/thethao789bet/du-lieu-bong-da', component: DuLieuTranDau },
     { path: '*', component: NotFound },
 ];
 

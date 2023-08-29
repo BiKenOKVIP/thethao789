@@ -128,7 +128,7 @@ function Home() {
                         <div className={cx('lastest-news')}>
                             <Link to="/#">
                                 <LastestNews
-                                    image="/images/posts/post8.png"
+                                    image="./images/posts/post8.png"
                                     title="Bóng Đá Ảo Châu Á Là Gì? Bí Kíp Cá Cược Bóng Đá Ảo Thắng Lớn"
                                     description="HLV Park Hang-seo là một trong những HLV thành công nhất với bóng đá Việt Nam. Vậy lý do nào khiến nhà cầm quân người Hàn"
                                 />
@@ -189,27 +189,27 @@ function Home() {
             <div className={cx('table-league')}>
                 <ResultTable
                     listTeams={listTeams}
-                    logoLeague="/images/league/ngoai-hang-anh-icon.png"
+                    logoLeague="./images/league/ngoai-hang-anh-icon.png"
                     nameLeague="ngoại hạng anh"
                 />
                 <ResultTable
                     listTeams={listTeams}
-                    logoLeague="/images/league/league1-icon.png"
+                    logoLeague="./images/league/league1-icon.png"
                     nameLeague="league 1"
                 />
                 <ResultTable
                     listTeams={listTeams}
-                    logoLeague="/images/league/laliga-icon.png"
+                    logoLeague="./images/league/laliga-icon.png"
                     nameLeague="la liga"
                 />
                 <ResultTable
                     listTeams={listTeams}
-                    logoLeague="/images/league/bundesliga-icon.png"
+                    logoLeague="./images/league/bundesliga-icon.png"
                     nameLeague="bundesliga"
                 />
                 <ResultTable
                     listTeams={listTeams}
-                    logoLeague="/images/league/seria-a-icon.png"
+                    logoLeague="./images/league/seria-a-icon.png"
                     nameLeague="seria a"
                 />
             </div>
